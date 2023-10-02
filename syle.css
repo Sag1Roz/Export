@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+  border: 2px solid black;
+  padding: 1rem 0 1rem 1rem;
+  margin: 1rem;
+  width: 40vw;
+}
+
+.buttons {
+  margin: 1rem 0 0 1rem;
+  display: flex;
+  gap: 15px;
+}
+
+.buttons button {
+  border: 2px solid black;
+  background-color: rgb(255, 3, 116);
+  color: white;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.buttons button:hover {
+  background-color: white;
+  color: rgb(255, 3, 116);
+}
